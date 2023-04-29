@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ahorcado.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="content1">
+            <h1>Ahorcado</h1>
+            <img id="imagen" src="img/imagen1.png" width="400px">
+            <p>¡Adivina la palabra!</p>
+            <h3 id="acierto"></h3>
+            <h2 class="palabra" id="palabra"></h2>
+            <input type="text" placeholder="Ingresa una letra" maxlength="1" id="letra">
+            <button onclick="comprobar()" id="btn">Validar</button>
+            <button onclick="recargar()" id="btn2" >Buscar otra palabra</button>
+        </div>
+    </section>
+</body>
+<script src="ahorcados.js">
+</script>
+</html>
